@@ -107,3 +107,14 @@ main {
   height: 30px;
 }
 
+@media screen and (max-width: 1100 px){
+  .nav-bar{
+    height:100vh;
+    width: 300px;
+    max-width: 300px;
+    position:fixed;
+  }
+  .nav-bar ul{
+    flex-direction: column;
+  }
+}
